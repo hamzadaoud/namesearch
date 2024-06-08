@@ -1,5 +1,5 @@
 <?php
-// Database credentials
+// Database credentials (these are just example, they are not working)
 $host = 'host';
 $port = '3306';
 $dbname = 'dbname';
@@ -137,7 +137,6 @@ if (isset($_GET['name'])) {
         </form>
         
         <!-- Display search results -->
-       <!-- Display search results -->
 <?php if (isset($results) && count($results) > 0): ?>
     <div class="search-results">
         <h2 class="text-white">Search Results</h2>
@@ -176,7 +175,7 @@ if (isset($_GET['name'])) {
         function changeBackground() {
             const now = new Date();
             const midnight = new Date(now);
-            midnight.setHours(24, 0, 0, 0); // Set to next midnight
+            midnight.setHours(24, 0, 0, 0);
             const timeRemaining = midnight - now;
             document.body.style.backgroundImage = `url(${backgrounds[Math.floor(Math.random() * backgrounds.length)]})`;
             setTimeout(changeBackground, timeRemaining);
