@@ -170,6 +170,7 @@ if (isset($_GET['name'])) {
             'img/img2.jpg?text=Background+Image+2',
             'img/img3.avif?text=Background+Image+3',
             'img/img4.avif?text=Background+Image+4'
+             <!--Add more images here -->
         ];
 
         function changeBackground() {
