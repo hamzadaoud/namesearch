@@ -9,7 +9,11 @@ NameSearch uses PHP and MySQL to store and retrieve name-meaning data. It utiliz
 ## How to Use
 
 1. Clone or download the repository to your local machine.
-2. Import the provided SQL database (`names.sql`) into your MySQL database.
+2. Create an sql table called 'names' here is the table: 'CREATE TABLE names (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    meaning TEXT NOT NULL
+);'
 3. Configure the database credentials in `index.php` to match your MySQL setup.
 4. Serve the project files using a local server environment such as XAMPP or WAMP.
 5. Access the application in your web browser by navigating to the project directory.
