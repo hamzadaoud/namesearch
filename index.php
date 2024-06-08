@@ -1,10 +1,10 @@
 <?php
 // Database credentials
-$host = 'sql212.infinityfree.com';
+$host = 'host';
 $port = '3306';
-$dbname = 'if0_35809395_stagiere';
-$username = 'if0_35809395';
-$password = 'ETzwdiIHoUd';
+$dbname = 'dbname';
+$username = 'username';
+$password = 'password';
 
 try {
     // Connect to the database
