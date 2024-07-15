@@ -37,5 +37,5 @@ NameSearch uses PHP and MySQL to store and retrieve name-meaning data. It utiliz
 
 ## Credits
 
-This project was created by [Hamza Daoud] as a demonstration of web development skills.
+This project was created by me as a demonstration of my web development skills, but  mostly I was trying to make a logic using php and js.
 
